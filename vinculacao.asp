@@ -55,15 +55,9 @@ END IF
     top:  -55px;
     left: 300px;	
 }
-.sucesso {
-	border-color: #87c940;
-	color: #FFF;
-	background-color: #a0d468;
-}
-
 .error {
 	border-color: #e8273b;
-	color: #FFF;
+	color: #000;
 	background-color: #ed5565;
 }
 
