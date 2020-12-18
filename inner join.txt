@@ -1,0 +1,8 @@
+SELECT * 
+FROM ExploracaoPecuaria
+INNER JOIN Produtor 
+ON Produtor.CPF = ExploracaoPecuaria.CPFCNPJProdutor
+INNER JOIN Propriedade
+ON Propriedade.Codigo = ExploracaoPecuaria.CodigoPropriedade
+INNER JOIN TipoExploracao
+ON TipoExploracao.Codigo = ExploracaoPecuaria.TipoExploracao;
