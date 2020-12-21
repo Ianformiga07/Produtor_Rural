@@ -54,6 +54,10 @@ function cadastrar()
 	document.frmExpPecuaria.action = "ExploracaoPecuaria.asp";
 	document.frmExpPecuaria.submit();
 }
+function ChamarLink(cpf,Codigo) {
+
+  window.open("visualiza.asp?cpf="+cpf+"&Cod="+Codigo, "Janela", 'width=750, height=300, top=100, left=699, scrollbars=no, status=no, toolbar=no, location=no, menubar=no, resizable=no, fullscreen=no')
+}
 </script>
 </head>
 <body>
@@ -102,6 +106,7 @@ call fechaConexao%>
   <th>Nome da Propriedade</th>
   <th>Codigo Municipio</th>
   <th>Tipo Exploracao</th>
+  <th>Operação</th>
   </tr>
   <%do while not rs.eof%>
   <tr>
@@ -111,6 +116,7 @@ call fechaConexao%>
   <td align="center"><%=rs("Nome")%></td>
   <td align="center"><%=rs("CodigoMunicipio")%></td>
   <td align="center"><%=rs("Descricao")%></td>
+  <td align="center"><a href="#" onclick="ChamarLink(<%=rs("CPF")%>, <%=rs("Codigo")%>);" '><img src="Imagens\impressao.png" width="30"/></a></td>
   </tr>
   <%
      rs.movenext
