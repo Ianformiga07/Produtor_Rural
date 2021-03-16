@@ -1,0 +1,108 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.cabecalho {
+	height:85px;
+	background-image:url(../images/back_cabecalho.jpg);
+	background-repeat:repeat-x;
+}
+.cabecalho td {
+	padding:0px;
+}
+.rodape {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#331C0E;
+	text-align:center;
+	display:block;
+	width:100%;
+	top:343px;
+	position:absolute;
+	left: 49px;
+
+}
+.rodape img {
+	margin-top:20px;
+}
+#loginbox {
+	display:block;
+	position:absolute;
+	top:54px;
+	left:50%;
+	margin-left:-339px;
+	width:698px;
+	height:283px;
+	background-image:url(../images/index4.jpg);
+	background-repeat:no-repeat;
+	background-color: #CCCCCC;
+}
+#loginbox table {
+	position:absolute;
+	left:634px;
+	top:103px;
+	margin-left:-120px;
+	width: 157px;
+}
+#loginbox td {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#loginbox a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:normal;
+}
+#loginbox a:hover {
+	color:#FF6600;
+}
+
+.link_cont{
+font-family:Verdana, Arial, Helvetica, sans-serif, Tahoma;
+font-size:11px;
+font-weight:bold;
+text-decoration:none;
+color:#000000;
+}
+.titGTA{
+font-family:Verdana, Arial, Helvetica, sans-serif, Tahoma;
+font-size:14px;
+font-weight:bold;
+text-decoration:none;
+color:#000000;
+}
+.subtitGTA {
+font-family:Verdana, Arial, Helvetica, sans-serif, Tahoma;
+font-size:9px;
+text-decoration:none;
+color:#000000;
+text-align:center;
+}
+
+.contPreto {
+font-family:Verdana, Arial, Helvetica, sans-serif, Tahoma;
+font-size:12px;
+text-decoration:none;
+color:#000000;
+text-align:center;
+}
+
+.contPreto3 {
+font-family:Verdana, Arial, Helvetica, sans-serif, Tahoma;
+font-size:9px;
+text-decoration:none;
+color:#000099;
+
+}
+
+.contPreto2 {
+font-family:Verdana, Arial, Helvetica, sans-serif, Tahoma;
+font-size:12px;
+text-decoration:none;
+color:#000000;
+text-align:left;
+PADDING-LEFT: 3px;
+}

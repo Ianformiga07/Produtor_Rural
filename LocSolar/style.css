@@ -1,0 +1,24 @@
+.texto {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	color: #000000;
+}
+.link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	text-decoration: underline;
+}
+.cima {
+	background-color: #CCCCCC;
+}
+.fora {
+	background-color: #FFFFFF;
+}
+.btn {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+	height: 50px;
+	width: 150px;
+
+}

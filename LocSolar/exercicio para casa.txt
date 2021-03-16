@@ -1,0 +1,14 @@
+Locadora
+|----------------locadora.mdb
+|-----conexao.asp	|-----filmes
+|-----cadastro.htm                 |-----codigo
+|-----cadastro.asp                  |-----nome
+|-----consulta.asp                   |-----valor
+|-----relatorio.asp
+|-----alterar.htm
+|-----alterar2.asp
+|-----alterar3.asp
+|-----excluir.htm
+|-----confirmar.asp
+|-----apagar.asp
+|-----menu.htm
